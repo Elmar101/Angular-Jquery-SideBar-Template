@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+mat-sidenav-container{
+  height: 100%;
+}
+
+mat-sidenav{
+  padding: 16px;
+  scroll-behavior: none;
+  height: 100%;
+}
+
+mat-sidenav img {
+  width: 170px;
+  margin-bottom: 25px;
+}
+mat-sidenav ul {
+  padding: 20px;
+}
+mat-sidenav .btn-badge {
+ color: #A4A4A4!important ;
+}
+mat-sidenav ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+mat-sidenav .material-icons{
+  font-size: 25px!important;
+  font-weight: bold!important;
+  margin-right: 15px!important;
+}
+mat-sidenav span {
+  float: right;
+  background:  #0489B1!important;
+  border-radius: 50%!important;
+  width: 40px!important;
+}
+
+mat-sidenav{
+  background-color:#fff;
+  width: 370px;
+}
+mat-sidenav mat-label {
+  float: right;
+  color:  #A4A4A4!important ;
+}
+mat-toolbar {
+  width: 100%;
+  background: #0489B1!important;
+  color: #fff!important;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+h1{
+  margin-top: 170px;
+}
+
+h1 button{
+  margin-top: 35px!important;
+  font-weight: 700;
+  color: #0489B1;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+
+input , textarea{
+  font-size: 16px;
+  font-weight: 500;
+}
+mat-tab-group{
+  padding: 25px;
+}
+mat-sidenav-content{
+  overflow: hidden;
+}
+//mainly
+.flx-right-m{
+  position: absolute;
+  top: 38%;
+  right: 0px;
+  border-radius: 25% 0 0 25%;
+  background:#0489B1;
+  height: 50px;
+  width: 55px;
+  text-align: center;
+  cursor: pointer;
+  transition: right 0.4s ease;
+  z-index: 2;
+
+}
+.flx-right-m.click{
+  right: 94.6%;
+}
+
+/* .btl.click:before{
+  content: '\f00d'
+} */
+
+.icon-btn{
+  color: #fff;
+  line-height: 50px;
+  font-size: 28px;
+}
+
+
+
+.sidebar-m{
+  position: absolute;
+  width: 94.4%;
+  right:-100%;
+  top: 8.4%;
+  height: 100%;
+  transition: right 0.4s ease;
+}
+
+.sidebar-m.show{
+  right: 0px;
+}
+
+// document
+.flx-right-d{
+  position: absolute;
+  top: 46%;
+  right: 0px;
+  border-radius: 25% 0 0 25%;
+  background:#0489B1;
+  height: 50px;
+  width: 55px;
+  text-align: center;
+  cursor: pointer;
+  transition: right 0.4s ease;
+  z-index: 1;
+}
+
+.flx-right-d.click{
+  right: 94.6%;
+}
+
+.sidebar-d{
+  position: absolute;
+  width: 94.4%;
+  right:-100%;
+  top: 8.4%;
+  height: 100%;
+  transition: right 0.4s ease;
+}
+
+.sidebar-d.show{
+  right: 0px;
+}
+
+
+//srtucture start
+.flx-right-stc{
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  border-radius: 25% 0 0 25%;
+  background:#0489B1;
+  height: 50px;
+  width: 55px;
+  text-align: center;
+  cursor: pointer;
+  transition: right 0.4s ease;
+  z-index: 3;
+}
+
+.flx-right-stc.click{
+  right: 94.6%;
+}
+
+.sidebar-stc{
+  position: absolute;
+  width: 94.4%;
+  right:-100%;
+  top: 8.4%;
+  height: 100%;
+  transition: right 0.4s ease;
+}
+
+.sidebar-stc.show{
+  right: 0px;
+}
+
+//history start
+
+.flx-right-hst{
+  position: absolute;
+  top: 55%;
+  right: 0px;
+  border-radius: 25% 0 0 25%;
+  background:#0489B1;
+  height: 50px;
+  width: 55px;
+  text-align: center;
+  cursor: pointer;
+  transition: right 0.4s ease;
+}
+
+.flx-right-hst.click{
+  right: 94.6%;
+}
+
+.sidebar-hst{
+  position: absolute;
+  width: 94.4%;
+  right:-100%;
+  top: 8.4%;
+  height: 100%;
+  transition: right 0.4s ease;
+}
+
+.sidebar-hst.show{
+  right: 0px;
+}
